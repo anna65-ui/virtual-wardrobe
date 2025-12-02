@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+.env
+
+# Данные и модели (не загружаем тяжелые файлы)
+data/raw/
+data/processed/*.h5
+models/*.pth
+*.weights
+*.onnx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Логи и системные файлы
+*.log
+.DS_Store
